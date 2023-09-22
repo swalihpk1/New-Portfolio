@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css" />
+
+  <!---------------------------Fonts used in this App------------------------------------------------------>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+
+  <!-----------------------------JS text.js extension ---------------------------------------------->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+    integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+    crossorigin="anonymous"></script>
+
+  <!-----------------------------Font-awseome ---------------------------------------------->
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+ 
+  <!------------------------------AJAX Using for Form Submission ------------------------------------------>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+   <!------------------------------WebSite Title ------------------------------------------>
+  <title>Swalih</title>
+</head>
+
+<body>
+  <!-- navbar -->
+
+  <nav id="nav">
+    <div class="navbar__nav">
+      <div class="navbar__container">
+        <div class="navbar__row">
+          <div class="navbar__logo">
+            <img src="./Assets/img/SWalih-Logo.png" alt="Swalih Logo" />
+          </div>
+
+          <div class="navbar__listItem">
+            <ul>
+              <li class="item item__active"><a href="#home">Home</a></li>
+              <li class="item"><a href="#about">About</a></li>
+              <li class="item"><a href="#service">What I Do</a></li>
+              <li class="item"><a href="#summary">Resume</a></li>
+              <li class="item"><a href="#portfolio">Portfolio</a></li>
+              <li class="item"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar__listItem--mobile">
+            <input type="checkbox" id="btnControl" />
+            <label class="navbar__barIcon" for="btnControl"><i class="fas fa-bars"></i></label>
+
+            <ul class="mobileList">
+              <li class="mobileItem"><a href="#home">Home</a></li>
+              <li class="mobileItem"><a href="#about">About</a></li>
+              <li class="mobileItem"><a href="#service">What I Do</a></li>
+              <li class="mobileItem"><a href="#summary">Resume</a></li>
+              <li class="mobileItem"><a href="#portfolio">portfolio</a></li>
+              <li class="mobileItem"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar__socialItem">
+            <ul>
+              <li class="socialItem">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/saluswalih.vkt/"><i
+                    class="fa-brands fa-facebook-f"></i></a><span class="tooltiptext__fb">Facebook</span>
+              </li>
+              <li class="socialItem">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/swalihpk1"><i
+                    class="fa-brands fa-github"></i></a><span class="tooltiptext__tw">Github</span>
+              </li>
+              <li class="socialItem">
+                <a target="_blank" rel="noopener noreferrer"
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i
+                    class="fa-brands fa-google"></i></a><span class="tooltiptext__dr">Google</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <header id="home">
+    <div class="home__Container">
+      <div class="home__bgLayer">
+        <div class="home__Caption">
+          <h3 class="home__intro">Welcome</h3>
+          <h1 class="home__title"></h1>
+          <!-- <h1 class="home__title">I'm Simone Olivia</h1> -->
+          <p class="home__desc">Positioned in South India, kerala.</p>
+          <a href="mailto:nisunasih135@gmail.com" class="home__button">Hire Me</a>
+          <div class="home__arrow--click">
+            <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- about -->
+  <section id="about">
+    <div class="about__Container">
+      <h2 class="titleBackground">
+        About Me
+        <p class="text__overlap">Know Me More</p>
+      </h2>
+      <div class="about__desc">
+        <div class="about__parag">
+          <h2 class="about__title">
+            I'm <span class="aboutTitle__span">Muhammed Swalih</span>,
+          </h2>
+          <p class="aboutParag__desc">
+            I am developer is an entry-level professional responsible for assisting in the creation and
+            maintenance of websites and web applications. I typically work under the guidance of more experienced
+            developers or senior team members.
+          </p>
+          <p class="aboutParag__desc">
+            I am in the early stages of my career and is expected to learn and grow
+            my skills while gaining practical experience in web development.
+          </p>
+        </div>
+        <div class="about__table">
+          <ul>
+            <li class="aboutTable__list"><b>Name:</b> Muhammed Swalih Pk</li>
+            <li class="aboutTable__list">
+              <b>Email:</b>
+              <span class="aboutTable__list--active">nisunasih135@gmail.com</span>
+            </li>
+            <li class="aboutTable__list"><b>Age:</b> 19</li>
+            <li class="aboutTable__list">
+              <b>From:</b> kerala, south India
+            </li>
+          </ul>
+          <a class="about__button--active" href="./Assets/My cv.pdf" target="_blank">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="service">
+    <div class="services__Container">
+      <h2 class="titleBackground">
+        Services
+        <p class="text__overlap">What I Do?</p>
+      </h2>
+
+      <div class="services__cards">
+        <div class="service__row">
+          <div class="services__card">
+            <div class="icon__container">
+              <div class="card__icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+            <div class="card__data">
+              <h3 class="card__title">Jr.web development</h3>
+              <p class="card__desc">
+                Ready to take your online presence to the next level? My skilles are here for you...!
+            </div>
+          </div>
+
+          <div class="services__card">
+            <div class="icon__container">
+              <div class="card__icon">
+                <i class="fa-solid fa-display"></i>
+              </div>
+            </div>
+            <div class="card__data">
+              <h3 class="card__title">Web Design</h3>
+              <p class="card__desc">
+                Looking to make a stunning first impression online? Meet my Web Design Dream Team!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="service__row">
+          <div class="services__card">
+            <div class="icon__container">
+              <div class="card__icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+            </div>
+            <div class="card__data">
+              <h3 class="card__title">Motivation</h3>
+              <p class="card__desc">
+                Lisque persius interesset his et, in quot quidam persequeris
+                vim, ad mea essent possim iriure.
+              </p>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <div class="icon__container">
+              <div class="card__icon"><i class="fa-brands fa-connectdevelop"></i></div>
+            </div>
+            <div class="card__data">
+              <h3 class="card__title">Web Design & Develop</h3>
+              <p class="card__desc">Don't settle for less when you can have it all. Contact me today to unleash the full
+                potential of your web portfolio!
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Summary -->
+  <section id="summary">
+    <div class="summary__Container">
+      <h2 class="titleBackground">
+        Summary
+        <p class="text__overlap">Resume</p>
+      </h2>
+
+      <div class="resume__container">
+        <div class="resume__column">
+          <h2 class="resume__title">My Education</h2>
+          <div class="resume__card">
+            <p class="card__year">2019 - 2021</p>
+            <h3 class="card__title">Computer Science</h3>
+            <p class="card__subtitle">Higher Secondary Education</p>
+            <p class="card__desc_resume">
+              Computer science is the study of computer science and
+              technologies.
+            </p>
+          </div>
+          <div class="resume__card">
+            <p class="card__year">2022 - 2023</p>
+            <h3 class="card__title">BCA(Dropout)</h3>
+            <p class="card__subtitle">Banglore North university</p>
+            <p class="card__desc_resume">
+              I'm a Degree dropout, why becuase in my college haven't enough quality facualities,
+            </p>
+          </div>
+        </div>
+
+        <div class="resume__column">
+          <h2 class="resume__title">My Experience</h2>
+
+          <div class="resume__card">
+            <p class="card__year">3-months</p>
+            <h3 class="card__title">Freelancer</h3>
+            <p class="card__subtitle">Banglore</p>
+            <p class="card__desc_resume">
+              A freelancer is an independent professional who offers
+              My services and expertise on a
+              temporary bfor a period
+            </p>
+          </div>
+
+          <div class="resume__card">
+            <p class="card__year"> NOW IN</p>
+            <h3 class="card__title">Brototype</h3>
+            <p class="card__subtitle">Peer Interaction:</p>
+            <p class="card__desc_resume">
+              Collaborate with students, participate in group portfolios, and engage in group discussions to
+              perspectives.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="skills__title">My Skills</h2>
+      <div class="resume__container">
+        <div class="skills__column">
+          <div class="skill__bar">
+            <p class="bar__label">Web Design</p>
+            <p class="bar__label--perc">65%</p>
+            <div class="progress__wd">
+              <div class="progressValue__wd"></div>
+            </div>
+          </div>
+
+
+
+          <div class="skill__bar">
+            <p class="bar__label">JavaScript</p>
+            <p class="bar__label--perc">30%</p>
+            <div class="progress__js">
+              <div class="progressValue__js"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills__column">
+
+          <div class="skill__bar">
+            <p class="bar__label">HTML/CSS</p>
+            <p class="bar__label--perc">75%</p>
+            <div class="progress__htmlCSS">
+              <div class="progressValue__htmlCSS"></div>
+            </div>
+          </div>
+
+
+
+          <div class="skill__bar">
+            <p class="bar__label">bootstrap</p>
+            <p class="bar__label--perc">90%</p>
+            <div class="progress__bootstrap">
+              <div class="progressValue__bootstrap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button__container">
+        <a class="summary__button" href="./Assets/My cv.pdf" target="_blank">Download CV&nbsp<i
+            class="fa-sharp fa-solid fa-download"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+
+  <section id="portfolio">
+    <div class="portfolio__Container">
+      <h2 class="titleBackground">
+        Portfolio
+      </h2>
+    </div>
+
+
+    </ul>
+    <div class="portfolio__gallery">
+      <div class="photo__item">
+        <img class="gallery__photo" src="./Assets/img/peakpx.jpg" alt="project 1 image" />
+        <div class="project__desc">
+          <div class="desc__container">
+            <h3 class="project__title"><a href="https://swalihpk1.github.io/SpaceX-responsive/">Space X</a></h3>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="photo__item">
+        <img class="gallery__photo" src="./Assets/img/WhatsApp Image 2023-09-18 at 9.43.17 AM.jpeg" alt="project 2 image" />
+        <div class="project__desc">
+          <div class="desc__container">
+            <h3 class="project__title"><a href="https://swalihpk1.github.io/vivel-home/">VIVEL</a></h3>
+            <p style="padding: 20px;">non responsive</p>
+          </div>
+        </div>
+      </div>
+      <div class="photo__item">
+        <img class="gallery__photo" src="./Assets/img/project-3.jpg" alt="project 3 image" />
+        <div class="project__desc">
+          <div class="desc__container">
+            <h3 class="project__title"><a href="https://swalihpk1.github.io/Personal-static-website/">OLD personal
+                website</a></h3>
+            <p style="padding: 20px;"></p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact__Container">
+      <h2 class="titleBackground">
+        Contact
+        <p class="text__overlap">Get in Touch</p>
+      </h2>
+
+      <div class="contact__wrap">
+        <div class="contact__data">
+          <h2 class="contactData__title">Address</h2>
+          <p class="contactData__address">
+            Paruthikkunnan(H.O)
+            <br />
+            Karakkkode(P.O)
+            <br />
+            Vazhikkadavu, 679333 <br> Malappuram, kerala <br> India
+          </p>
+          <p class="contact__text">
+            <span class="address__icon"><i class="fa-solid fa-phone"></i></span>
+            +91 73064 77519.
+          </p>
+          <p class="contact__text">
+            <span class="address__icon">
+              <i class="fa-solid fa-fax"></i></span>
+            +91 90725 43448.
+          </p>
+          <p class="contact__text last__parag">
+            <span class="address__icon"><i class="fa-solid fa-envelope"></i></span>
+            chat@Swalih.com
+          </p>
+          <h2 class="contactData__title">Follow Me</h>
+
+        </div>
+
+        <div class="contact__form">
+          <h2 class="contactData__title">SEND US A NOTE</h2>
+
+          <form id="submit-form" action="" >
+            <input name="name" type="text" class="form__input" required="" placeholder="Name" />
+            <input name="email" type="email" class="form__input" required="" placeholder="Email" />
+            <div class="text__container">
+              <textarea name="text_msg" class="form__input" rows="5" required=""
+                placeholder="Tell us more about your needs......"></textarea>
+            </div>
+            <div class="send__button">
+              <!-- <a href="" class="form__button" type="submit" >Send Message</a> -->
+             <!-- <input type="submit" value="Send Message" class="form__button">  -->
+             <button type="submit" value="submit" class="form__button">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer__container">
+    <p class="footer__desc">
+      Copyright swalihPK© 2021 <a href="#" class="footer__link">Swalih.</a> All
+      Rights Reserved.
+    </p>
+    <ul class="footer__list">
+      <li class="footer__linkItem">
+        <a>Terms & Policy</a>
+      </li>
+      <li class="footer__linkItem">
+        <a>Disclaimer</a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-------------------------- JS text.js extension script ----------------------->
+  <script>
+    var typing = new Typed(".home__title", {
+      strings: [
+        "I'm Muhammed Swalih",
+        "I'm a Jr.developer.",
+        "I'm a Jr.Web Designer.",
+      ],
+      typeSpeed: 150,
+      backSpeed: 80,
+      loop: true,
+    });
+  </script>
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbwdVRkipHvjH0vonW8UfxWtvBiUjkVVHT-XFHi3A5PXOc_vEe7T9YTboFj9GU-ga0CX/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+</body>
+
+</html>
